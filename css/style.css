@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    font-family: Roboto;
+}
+
+/*----HEADER----*/
+.descuento {
+    background-color:#D1891C;
+    font-family: Roboto;
+    padding: 5px;
+    padding-left: 30px;
+    width: 100%;
+    height: 18px;
+    left: 67px;
+    top: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+
+
+.titulo {
+    background-color:#00669F;
+    font-weight: 400;
+    padding: 10px;
+    padding-left: 30px;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    margin-bottom: 15vh;
+    color: #ffffff;
+}
+
+
+/*----MAIN----*/
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    position: relative;
+}
+
+.card {
+    background-color: #F3F3F3;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+    width: 350px;
+    position: relative;
+}
+
+.corazon {
+    color: red;
+    font-size: 20px;
+    left: 4%;
+    position: absolute;
+    top: 4%;
+    z-index: 2;
+}
+
+.card-img banner{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.card-img img.banner {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    position: relative;
+}
+
+.card-info {
+    margin-top: 20%;
+    text-align: center;
+    height: 300px;
+   
+}
+
+.card-info>p {
+    padding: 5% 10%;
+    text-align: justify;
+    word-spacing: 0px;
+    margin-top: 0px;
+}
+
+.card-buton {
+    background-color: #00669F;
+    color: white;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 15px 40px;
+    text-decoration: none;
+    max-width: 70%;
+    bottom: 10px;
+    position: absolute;
+    margin-left: -55px;
+    
+}
+
+.img-perfil {
+    border-radius: 50px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: -230px;
+    width: 110px;
+}
+
+
+
+/*----FOOTER----*/
+footer {
+    align-items: center;
+    background-color: #00669F;
+    color: white;
+    display: flex;
+    height: 51px;
+    margin-top: 10%;
+    justify-content: center;
+}
+
+.footer-git {
+  width: 8%;
+  position: sticky;
+  left: 85.12%;
+  right: 2.82%;
+  bottom: 1.33%;
+}
+
